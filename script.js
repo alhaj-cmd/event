@@ -28,28 +28,48 @@
 // function closewindow(){
 //     myWindow.close();
 // }
+  
+// class 108
 
-function validation(){
-    const inputObj = document.getElementById('id1');
+// function validation(){
+//     const inputObj = document.getElementById('id1');
 
-    if (inputObj.validity.rangeOverflow){
-        inputObj.setCustomValidity("you have range Overflow !!");
+//     if (inputObj.validity.rangeOverflow){
+//         inputObj.setCustomValidity("you have range Overflow !!");
 
-    }
-    else if(inputObj.validity.rangeUnderflow){
-        inputObj.setCustomValidity("you have range Underflow !!");
-
-
-    }
-
-    else if(inputObj.validity.valueMissing){
-        inputObj.setCustomValidity("you have range ValuMiss !!");
+//     }
+//     else if(inputObj.validity.rangeUnderflow){
+//         inputObj.setCustomValidity("you have range Underflow !!");
 
 
-    }
+//     }
 
-    if(!inputObj.checkValidity()){
-        document.getElementById("demo").innerHTML = inputObj.validationMessage;
+//     else if(inputObj.validity.valueMissing){
+//         inputObj.setCustomValidity("you have range ValuMiss !!");
 
-    }
-}
+
+//     }
+
+//     if(!inputObj.checkValidity()){
+//         document.getElementById("demo").innerHTML = inputObj.validationMessage;
+
+//     }
+// }
+
+// class 116
+
+// function getLocation(){
+//     if (navigator.geolocation){
+//         navigator.geolocation.getCurrentPosition(showPosition);
+//     }
+//     else{
+//         display.innerHTML("Location is not avoilable")
+
+//     }
+// }
+
+// function showPosition(position){
+//     display.innerHTML =
+//      "Latitude: " + position.coords.latitude + 
+//      "<br/> Longitude: " + position.coords.longitude;
+// }
